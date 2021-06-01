@@ -1,0 +1,13 @@
+ <Router>
+
+
+          <div className="wrapper">
+              <Switch> 
+                    <Route path = "/listcompte" exact component = {listCompte}></Route>
+                    <Route path = "/creatcompte" exact component = {addCompte}></Route>
+                    <Route path = "/" exact component = {Home}></Route>
+                    {/* <Route path = "/update-employee/:id" component = {UpdateEmployeeComponent}></Route> */}
+              </Switch>
+          </div>
+
+  </Router>
